@@ -1,7 +1,7 @@
 language: latex
 script:
   - curl -L https://raw.githubusercontent.com/aslushnikov/latex-online/master/util/latexonline > laton && chmod 755 laton
-  - ./laton -c xelatex -d tex.buaadml.info -g resume.tex
+  - ./laton -c xelatex -g resume.tex
 before_deploy:
 deploy:
   provider: releases
