@@ -2,12 +2,15 @@ language: latex
 script:
   - curl -L https://raw.githubusercontent.com/aslushnikov/latex-online/master/util/latexonline > laton && chmod 755 laton
   - ./laton -c xelatex -g resume.tex
+  - ./laton -c xelatex -g resume_en.tex
 before_deploy:
 deploy:
   provider: releases
   api_key: 
     secure: ${GH_TOKEN}
-  file: resume.pdf
+  file: 
+  - resume.pdf 
+  - resume_en.pdf
   skip_cleanup: true
   on:
     tags: true
