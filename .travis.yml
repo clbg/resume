@@ -10,4 +10,4 @@ deploy:
   file: resume.pdf
   skip_cleanup: true
   on:
-    tags: false
+    tags: true
