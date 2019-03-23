@@ -6,26 +6,25 @@
 \usepackage{graphicx}
 \usepackage{tabu}
 \usepackage{tabularx}
+\usepackage{geometry}
 \usepackage{multirow}
-\usepackage{progressbar}
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-\usepackage{tikz}
+%\usepackage{tikz}
 % \usepackage{NotoSansSC_external}
 % \usepackage{NotoSerifCJKsc_external}
 % \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
-\usepackage{cite}
+%\usepackage{cite}
 
-\newcommand{\hlink}[1]{\href{#1}{#1}}
+%\newcommand{\hlink}[1]{\href{#1}{#1}}
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\medskip\noindent
 \begin{minipage}{0.7\textwidth}
   \Large{
     \begin{tabu}  { l }
-      \scshape{ Cheng \quad  Peng} \\
+      \scshape{Cheng \quad  Peng} \\
       \email{pengcheng@live.ca} \\
       \phone{(+86) 13070157185} \\
     \end{tabu}
@@ -33,71 +32,72 @@
 \end{minipage}
 \begin{minipage}{0.3\textwidth}
   \raggedleft
-  \includegraphics[height=30mm]{me}
+  \includegraphics[height=25mm]{me}
 \end{minipage}
 
-\section{ Education}
-\datedsubsection{\textbf{Beihang University(BUAA)}, Beijing }{2017 -- Present}
-\textit{Master of Computer Technology }\quad {School of Computer Science and Engineering } \quad{ Admitted to professional master  through the first place in the graduate  entrance examination , expected  January 2020}
-\datedsubsection{\textbf{Beihang University(BUAA)}, Beijing }{2013 -- 2017}
+\section{Education}
+\datedsubsection{\textbf{Beihang University(BUAA)}, Beijing }{Sep.2017 -- Jan.2020(expected)}
+\textit{Master of Computer Technology }\quad {School of Computer Science and Engineering } \quad{ Admitted to professional master  through the first place in the graduate  entrance examination}
+\datedsubsection{\textbf{Beihang University(BUAA)}, Beijing }{Sep.2013 -- Jun.2017}
 \textit{Bachaler of Electronics Engineering }\quad  {School of Electronics Engineering}\quad { Beidou Experimental Class}
 
-\section{ Experience}
+\section{Experience}
 
-\datedsubsection{\textbf{Large Scale Multi-Index Image Retrival }}{Dec.2017-- Present}
+\datedsubsection{\textbf{Large Scale Multi-Level-Index Image Retrival }}{Dec.2017-- Present}
 \role{CNN Deep Hash}{Research Project}
 %\begin{onehalfspacing}
 \begin{itemize}[topsep = 0 pt, partopsep = 0pt]
-  \item Multi-indexed deep hash CBIR algorithm 
-  \item Million-scale image database, response within 100 millisecond
-  \item Experiments and thesis are under way
+  \item Multi-level-indexed deep hash CBIR algorithm, using deep learning networks to generate multi level  binary hashcodes
+  \item Million-scale image database, significantly reduced responsetime from seconds to within 100 milliseconds
 \end{itemize}
 %\end{onehalfspacing}
 
 
-\datedsubsection{\textbf{Remote Sensing Project for o a Certain Army Department}}{May.2018 -- Jan.2019}
+\datedsubsection{\textbf{Remote Sensing Project for a Certain Army Department}}{May.2018 -- Jan.2019}
 \role{Mask R-CNN}{Lab Project}
 %\begin{onehalfspacing}
 \begin{itemize}[topsep = 0 pt, partopsep = 0pt]
-  \item Detecting buildings on ground using Mask R-CNN 
-  \item Changed detecting of remote sensing images in different time
+  \item An army project for building detection on ground in fused-images or visible-light-images and change detection in different time
+  \item Used Mask R-CNN for building detection. PCA reduction , K-means and image morphology for changed detection
+  \item Enhanced performance of small size targets with super-resolution methods 
 \end{itemize}
 %\end{onehalfspacing}
 
-\datedsubsection{\textbf{Megvii-Inc Database Platform Construction  }}{ Jul.2017 -- Feb.2018}
+\datedsubsection{\textbf{Megvii-Inc Database Platform Development}}{ Jul.2017 -- Feb.2018}
 \role{Spark,Storm}{Megvii CSG SDE Intern}
 \begin{itemize}[topsep = 0 pt, partopsep = 0pt]
-  \item Help data analyst to identify suspicious users with Spark、Hive
-  \item Real time data process, consuming Kafka's dato to Storm, generating real time summary report
-  \item Automating cyclical tasks using Airflow 
+  \item Took part in backend database platform development of CSG(Cloud Service Group),Megvii-Inc. Upgraded backend to adapt large data traffic with growth of business
+  \item Helped data analyst to identify suspicious users with Spark、Hive
+  \item Used Storm to consume data from Kafka stream, generated realtime summary reports and alerts
+  \item Automated cyclical tasks like calculating bills with Airflow 
 \end{itemize}
 
 \datedsubsection{\textbf{Medical Image 3D Reconstruction and Interaction System on VR Platform }}{Jun.2016 --Jun.2017}
 \role{Unity3D}{Undergraduate graduation project ,BUAA EE Experimental Center}
 %\begin{onehalfspacing}
 \begin{itemize}[topsep = 0 pt, partopsep = 0pt]
-  \item 3D Reconstruction of CT and MRI images
-  \item Displaying and Interactinng on HTC Vive
-  \item Slicing 3D human body model to observe internal structure for auxiliary  diagnosis and teaching
+  \item Generated 3D human body models with medical images, displayed and interacted on VR devices, can be used for auxiliary diagnosis and teaching
+  \item 3D Reconstruction of CT and MRI images with VTK
+  \item Piped models to Unity3D engine, Displayed and Interacted on HTC Vive
+  \item Sliced 3D human body model with shaders to observe internal structure
 \end{itemize}
 %\end{onehalfspacing}
 
-\section{ Skills}
+\section{Skills}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
   \item Programing Languages: frequently use  C/C++、Python， familiar with  Java、Scala、Golang
   \item Tools: Linux、Git、Docker
 \end{itemize}
 
-\section{ Honors}
+\section{Honors}
 \datedline{\textit{National Inspirational Scholarship }}{Aug.2014}
 \datedline{\textit{BUAA Freshman Scholaship }}{Aug.2017}
 
-\section{ Miscellaneous}
+\section{Miscellaneous}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item  English - (CET-6: 530)
-  \item  Radio Callsign - BI1GPX
+  \item  English - CET-6: 530
+  \item  Interest - Swimming, Board game, Badminton, Radio callsign:BI1GPX
 \end{itemize}
-
 \end{document}
