@@ -1,0 +1,22 @@
+name: Build PDF
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: pip install markdown
+    - name: Build PDF
+      run: python3 resume.py
+    - name: Upload PDF
+      uses: actions/upload-artifact@v2
+      with:
+        name: resume
+        path: resume.pdf
