@@ -1,73 +1,62 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 # Cheng Peng
 
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 - <pengcheng@live.ca>
 - +86 13070157185
 - [LinkedIn](https://www.linkedin.com/in/%E7%A8%8B-%E5%BD%AD-8557029b/)
 - Beijing, China
 
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-SDE II of Amazon Intech JP Store, full stack developer, React/Java
+4 YOE as an SDE II at Amazon Intech JP Store with full stack development experience. Always trying to do more with less. Thinking about how to grow into a senior position.
 
 ## Experience
 
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
-### <span>SDE Intern, Amazon JP</span> <span>Jul 2019 -- Oct 2019</span>
-As a SDE Intern of Amazon Japan, Completed development of audit portal for JP Cahsless Rebate program V1
+### *SDE, Amazon JP* <span>*Jan 2020 -- Present*</span>
 
- - complete frontend developing with JSP, CSS JavaScript on my own.
+### VAMOS <span>2022-2024</span>
 
-### <span>SDE , Amazon JP</span> <span>Jan 2020 -- Now </span>
+VAMOS is a one-stop internal tool for Vendor Managers and Brand Specialists, containing multiple applications to let users analyze performance, view recommendations, create actions, and negotiate with customers.
 
-As a Full time SDE of AMazon Japan, I wokred across multiple project in Retail Intech JP team, 
+- Led the frontend development for several applications, setting standards for code, testing, and component design.
+- Participated in backend and data pipeline development, contributing to end-to-end project development.
+- Managed feature development, aligning project milestones and mitigating risks. Handled a hard launch milestone with only 50% bandwidth available.
+- Directed the development of key applications, moving the project towards a low-code approach and enforcing PM & UXD to design with limitations to save development effort.
+- Gained significant experience in project management and technical innovation, reinforcing skills in both frontend and backend development areas.
 
-- At first, I was Tailoring and maintaining a large system CashlessV2 program all with my own for a year.
+### Amazon Seller Central Lens <span>2020-2021</span>
 
-- Then I participated in the project 'Seller Central Lens', which was a internal permission control tool to manage internal users like vendor manages to access 3rd party sellers' view of Amazon Seller Central.
+SellerCentralLens is an access management tool on top of Seller Central, which allows internal users to apply, review, manage, and delegate permissions to allow internal users to see sellers' pages when necessary. It was designed to replace the old *spoofer* system with finer grain permission control, a more user-friendly UI, and integrations like Emails and other internal systems.
 
- - Starting from late 2022, I started working on VAMOS (Vendor Ammmm..... One Stop ) project, including multiple applications. it was designed to be a all-in-one web tool for vendor managers and bs .. and it was customized for Japan and planed to promote to Europe and Brazil site. 
+- Led the frontend development, selecting tech stacks and establishing coding standards.
+- Contributed to low-level design decisions, enhancing system scalability and performance.
+- Authored a frontend development guide to elevate team knowledge and efficiency. Recognized for leadership and mentorship after handing over the project.
 
-## Projects
+### Amazon Japan Cashless V2 <span>2020-2021</span>
 
-### <span>Amazon Japan Cashless V2</span> <span>2020-2021</span>
+Cashless V2 is generally a subset of Cashless V1, which was designed to provide a discount program along with the JP tax increase, leveraging the V1 system for promotion management.
 
-Cashless V2 is Generally a subset of Cashless V1 which was designed to providing a discount program alone with JP tax raise act for audited medium-small sellers, leveraging V1 system to maintain a product select with a list of sellers to provide a promotion program for them.
+- Managed 10+ software packages and 3+ data pipelines, successfully handling an unexpected 10x increase in data volume before launch.
+- Ensured timely project launch with optimized data processing, demonstrating capability in high-pressure situations.
+- Initiated design documentation, improving skills in data handling and system maintenance.
 
-   - During the project, I maintained 10+ packages, 3+ pipelines, 3 ETL jobs all on my own.
-   - 2 week before the launchig date, PM foud the data scale was 10 times larger than expected, I worked with several senior SDEs to simplified the data pipelines to mitigate the risk.
+### *SDE Intern, Amazon JP* <span>*Jul 2019 -- Oct 2019*</span>
+### Amazon Japan Cashless V1 <span>Jul 2019 -- Oct 2019</span>
 
-### <span>Amazon Seller Central Lens</span> <span>2020-2021</span>
+Cashless V1 is a large system designed to manage promotions in response to the JP government's policy.
 
-Amazon Seller Central Lens is a tool which let interal users to apply, review, manage delegate permissions to allow internal users to see sellers' page when necessary. it was designed to replace the old 'spoofer' system with finer grain permission control, more user friendly UI and integrations like Emails and other internal system.
-
-   - I participated in low level designes of the frontend and BFF part.
-   - I was the main developer of frontend part, using React.
-   - Set development workflow, code style, starting guide in the team which was not expertise in frontend domain
-
-### <span>VAMOS </span> <span>2022-2024</span>
-
-VAMOS is a one stop internal tool for vendor managers, bs.  containing multipe applications including Performace Analysis, Recommendation Central, 1P mapping, Negotiatio, Action Managers. During the long life cycle and multiple rolling out features.
-I contributed by 1) lead the frontend developmnent of multiple applications especially at the begining. 2) partipate in development of backend and data pipelines i multiple applications. 3) playing feature owner of multiple features.
-
-   - Lead the frontend development with several team mates, settings workflows and norms from code format, component design, test, cicd... 
-   - participate in backend , infrastructure, data pipelines development. contributing PA, R, JAM in both frotnend and backend and infrasture
-   - play the role of feature owner to align features, setting milestones, tracking project progress, mitigating risks.
-   - dive deep contribute enhancemenets like config generators, performance boosting.
+- Developed an audit portal for the JP Cashless Rebate program, handling frontend development and contributing to the full development lifecycle.
+- Acquired hands-on experience with JSP, CSS, JavaScript, and full-cycle development, laying a solid foundation for my career in software development.
 
 ## Education
 
-### <span>Beihang University, BEng Electronics Engineering</span> <span>2013 -- 2017</span>
-  - Bachaler of Electronics Engineering School of Electronics Engineering Beidou Experimental Class
+### Beihang University, MSc Computing Science <span>2017--2020</span>
+  - Master of Computer Technology from the School of Computer Science and Engineering, nominated for Outstanding Thesis.
 
-### <span>Beihang University, MSc Computing Science</span> <span>2013 -- 2017</span>
-  - Master of Computer Technology School of Computer Science and Engineering Admitted to professional master through the first place in the graduate entrance examination
+### Beihang University, BEng Electronics Engineering <span>2013 -- 2017</span>
+  - Bachelor of Electronics Engineering from the School of Electronics Engineering, achieved the top score on the graduate school entrance exam.
 
 ## Skills
+- Full stack development, including Frontend, backend, native AWS, and data pipelines.
+- Expertise in the field of used cars and cooking; beginner in trumpet playing.
+- Duolingo Español 200+ day streak.
 
- - Frontend development: React, Typescript, CSS
- - Backend development: 
- - Other: Data pipelines
+
+
